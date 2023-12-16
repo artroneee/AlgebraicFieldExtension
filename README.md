@@ -8,7 +8,7 @@ But why X? According to my research, for any field GF(p)^k there is an irreducib
 
 
 The correctness of the polynomial goes through 3 checks:
-1) Substitution of values that are included in the module (p1 value): if any substitution is 0, then the polynomial is generated anew;
+1) Substitution of values that are included in the module (p - 1 values): if any substitution is 0, then the polynomial is generated anew;
 2) If the number of terms of the generated polynomial is integerally divisible by p, then the polynomial is generated anew;
 3) If the field is not closed by p^k -1 element (not only the last value of the field = 1), then the polynomial is also generated anew.
 
